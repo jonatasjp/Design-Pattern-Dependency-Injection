@@ -1,5 +1,10 @@
 package implementacao;
 
+/**
+ * proxy da interface executor para realizar a injeção das dependências
+ * nos processos que necessitem dessa injeção, logo após delega a execução do 
+ * processo para o executor encapsulado
+ */
 public class ProxyInjecaoUsuario implements Executor{
 
 	private Executor executor;
@@ -19,6 +24,5 @@ public class ProxyInjecaoUsuario implements Executor{
 		
 		executor.executar(processo);
 	}
-
 
 }
