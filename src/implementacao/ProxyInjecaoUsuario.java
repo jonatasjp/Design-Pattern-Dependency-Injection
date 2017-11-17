@@ -17,7 +17,6 @@ public class ProxyInjecaoUsuario implements Executor{
 
 	@Override
 	public void executar(Processo processo) {
-		
 		if(processo instanceof DependeUsuario) {
 			((DependeUsuario) processo).recebeUsuario(usuario);
 		}
