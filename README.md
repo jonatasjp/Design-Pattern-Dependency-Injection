@@ -1,4 +1,4 @@
-# Repositório da implementação do padrão de Dependency Injection
+# Repositório da implementação do padrão Dependency Injection
 
 Este repositório contém a implementação do padrão de Projeto Dependency Injection, foi desenvolvido em Java.
 
